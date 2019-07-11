@@ -1,0 +1,423 @@
+/*------------------------------------*\
+   HERO CSS
+\*------------------------------------*/
+
+
+
+/* BANNER GIVE-BACK */
+
+/* SCREENS */
+
+/* LOCAL FIXES */
+
+.main [data-module-template="heroes"] [data-unit-id] .unit-copy-wrapper>*.cta-links a:only-child { margin-left: 0; }
+.main [data-module-template="iphone-promo"] .cta-links a:not(:first-child) { margin-left: 20px; }
+@media only screen and (max-width: 735px) {
+	.main [data-module-template="iphone-promo"] .cta-links a:not(:first-child) { margin-left: 0; }
+}
+
+.main [data-module-template="iphone-promo"] .small-caps {
+	font-variant-caps: all-small-caps;
+}
+
+.main [data-module-template="iphone-promo"] .headline sup {
+	font-size: 0.6em;
+	bottom: -.1em;
+}
+
+.main [data-module-template="iphone-promo"] .subhead {
+    max-width: 23em
+}
+@media only screen and (max-width: 735px) {
+    .main [data-module-template="iphone-promo"] .subhead {
+        max-width: 18em
+    }
+}
+
+/* END BANNER GIVE-BACK */
+
+
+
+
+
+
+
+
+/* HERO 1 IPHONE-XR */
+
+/* SCREENS */
+
+/* LOCAL FIXES */
+
+/* END HERO 1 IPHONE-XR */
+
+
+
+
+/* HERO 2 IPHONE-XS */
+
+/* SCREENS */
+
+/* LOCAL FIXES */
+
+.main [data-module-template="heroes"] .unit-image-wrapper .unit-image {
+	bottom: -20px;
+}
+
+@media only screen and (max-width: 1068px) {
+    .main [data-module-template="heroes"] [data-unit-id="iphone-xs"] .unit-wrapper .unit-image-wrapper {
+        top: 10px;
+    }
+}
+
+@media only screen and (max-width: 735px) {
+    .main [data-module-template="heroes"] [data-unit-id="iphone-xs"] .unit-wrapper .unit-image-wrapper .unit-image {
+        bottom: -90px;
+    }
+}
+
+@media only screen and (min-width: 1069px) and (min-height: 776px) {
+    .main [data-module-template="heroes"] .unit-image-wrapper .unit-image {
+        bottom: 0;
+    }
+}
+
+
+
+/* END HERO 2 IPHONE-XS */
+
+
+
+
+
+
+/* HERO 3 APPLE-WATCH-SERIES-4 */
+
+/* SCREENS */
+
+.main [data-module-template="heroes"] .unit-image-wrapper .unit-image.unit-image-watch-series-4-watch {
+    background-image: url("/fr/home/images/heroes/watch-series-4/watch__csqqcayzqueu_large.jpg")
+}
+
+@media only screen and (-webkit-min-device-pixel-ratio: 1.5), only screen and (min-resolution: 1.5dppx), (-webkit-min-device-pixel-ratio: 1.5), (min-resolution: 144dpi) {
+    .main [data-module-template="heroes"] .unit-image-wrapper .unit-image.unit-image-watch-series-4-watch {
+        background-image: url("/fr/home/images/heroes/watch-series-4/watch__csqqcayzqueu_large_2x.jpg")
+    }
+}
+
+@media only screen and (max-width: 1068px) {
+    .main [data-module-template="heroes"] .unit-image-wrapper .unit-image.unit-image-watch-series-4-watch {
+        background-image: url("/fr/home/images/heroes/watch-series-4/watch__csqqcayzqueu_medium.jpg")
+    }
+}
+
+@media only screen and (max-width: 1068px) and (-webkit-min-device-pixel-ratio: 1.5), only screen and (max-width: 1068px) and (min-resolution: 1.5dppx), only screen and (max-width: 1068px) and (min-resolution: 144dpi) {
+    .main [data-module-template="heroes"] .unit-image-wrapper .unit-image.unit-image-watch-series-4-watch {
+        background-image: url("/fr/home/images/heroes/watch-series-4/watch__csqqcayzqueu_medium_2x.jpg")
+    }
+}
+
+@media only screen and (max-width: 735px) {
+    .main [data-module-template="heroes"] .unit-image-wrapper .unit-image.unit-image-watch-series-4-watch {
+        background-image: url("/fr/home/images/heroes/watch-series-4/watch__csqqcayzqueu_small.jpg")
+    }
+}
+
+@media only screen and (max-width: 735px) and (-webkit-min-device-pixel-ratio: 1.5), only screen and (max-width: 735px) and (min-resolution: 1.5dppx), only screen and (max-width: 735px) and (min-resolution: 144dpi) {
+    .main [data-module-template="heroes"] .unit-image-wrapper .unit-image.unit-image-watch-series-4-watch {
+        background-image: url("/fr/home/images/heroes/watch-series-4/watch__csqqcayzqueu_small_2x.jpg")
+    }
+}
+
+@media only screen and (min-width: 1069px) and (min-height: 776px) {
+    .main [data-module-template="heroes"] .unit-image-wrapper .unit-image.unit-image-watch-series-4-watch {
+        background-image: url("/fr/home/images/heroes/watch-series-4/watch__csqqcayzqueu_largetall.jpg")
+    }
+}
+
+@media only screen and (min-width: 1069px) and (min-height: 776px) and (-webkit-min-device-pixel-ratio: 1.5), only screen and (min-width: 1069px) and (min-height: 776px) and (min-resolution: 1.5dppx), only screen and (min-width: 1069px) and (min-height: 776px) and (min-resolution: 144dpi) {
+    .main [data-module-template="heroes"] .unit-image-wrapper .unit-image.unit-image-watch-series-4-watch {
+        background-image: url("/fr/home/images/heroes/watch-series-4/watch__csqqcayzqueu_largetall_2x.jpg")
+    }
+}
+
+@media only screen and (max-width: 1068px) and (min-width: 736px) and (min-height: 734px) {
+    .main [data-module-template="heroes"] .unit-image-wrapper .unit-image.unit-image-watch-series-4-watch {
+        background-image: url("/fr/home/images/heroes/watch-series-4/watch__csqqcayzqueu_mediumtall.jpg")
+    }
+}
+
+@media only screen and (max-width: 1068px) and (min-width: 736px) and (min-height: 734px) and (-webkit-min-device-pixel-ratio: 1.5), only screen and (max-width: 1068px) and (min-width: 736px) and (min-height: 734px) and (min-resolution: 1.5dppx), only screen and (max-width: 1068px) and (min-width: 736px) and (min-height: 734px) and (min-resolution: 144dpi) {
+    .main [data-module-template="heroes"] .unit-image-wrapper .unit-image.unit-image-watch-series-4-watch {
+        background-image: url("/fr/home/images/heroes/watch-series-4/watch__csqqcayzqueu_mediumtall_2x.jpg")
+    }
+}
+
+/* LOCAL FIXES */
+
+/* END HERO 3 APPLE-WATCH-SERIES-4 */
+
+
+
+
+
+
+
+
+/*------------------------------------*\
+  END HERO CSS
+\*------------------------------------*/
+
+
+
+
+
+/*------------------------------------*\
+   PROMO CSS
+\*------------------------------------*/
+
+
+
+/* PROMO 1 LE-JEUNE-CINEMA */
+
+/* SCREENS */
+.main [data-module-template="promos"] .unit-image-wrapper .unit-image.unit-image-le-jeune-cinema-tile {
+    width: 1262px;
+    height: 580px;
+    background-size: 1262px 580px;
+    background-repeat: no-repeat;
+    background-image: url("/fr/home/images/promos/le-jeune-cinema/le_jeune_cinema_tile_large.jpg")
+}
+
+@media only screen and (-webkit-min-device-pixel-ratio: 1.5), only screen and (min-resolution: 1.5dppx), (-webkit-min-device-pixel-ratio: 1.5), (min-resolution: 144dpi) {
+    .main [data-module-template="promos"] .unit-image-wrapper .unit-image.unit-image-le-jeune-cinema-tile {
+        background-image: url("/fr/home/images/promos/le-jeune-cinema/le_jeune_cinema_tile_large_2x.jpg")
+    }
+}
+
+@media only screen and (max-width: 1068px) {
+    .main [data-module-template="promos"] .unit-image-wrapper .unit-image.unit-image-le-jeune-cinema-tile {
+        width: 516px;
+        height: 490px;
+        background-size: 516px 490px;
+        background-repeat: no-repeat;
+        background-image: url("/fr/home/images/promos/le-jeune-cinema/le_jeune_cinema_tile_medium.jpg")
+    }
+}
+
+@media only screen and (max-width: 1068px) and (-webkit-min-device-pixel-ratio: 1.5), only screen and (max-width: 1068px) and (min-resolution: 1.5dppx), only screen and (max-width: 1068px) and (min-resolution: 144dpi) {
+    .main [data-module-template="promos"] .unit-image-wrapper .unit-image.unit-image-le-jeune-cinema-tile {
+        background-image: url("/fr/home/images/promos/le-jeune-cinema/le_jeune_cinema_tile_medium_2x.jpg")
+    }
+}
+
+@media only screen and (max-width: 735px) {
+    .main [data-module-template="promos"] .unit-image-wrapper .unit-image.unit-image-le-jeune-cinema-tile {
+        width: 736px;
+        height: 548px;
+        background-size: 736px 548px;
+        background-repeat: no-repeat;
+        background-image: url("/fr/home/images/promos/le-jeune-cinema/le_jeune_cinema_tile_small.jpg")
+    }
+}
+
+@media only screen and (max-width: 735px) and (-webkit-min-device-pixel-ratio: 1.5), only screen and (max-width: 735px) and (min-resolution: 1.5dppx), only screen and (max-width: 735px) and (min-resolution: 144dpi) {
+    .main [data-module-template="promos"] .unit-image-wrapper .unit-image.unit-image-le-jeune-cinema-tile {
+        background-image: url("/fr/home/images/promos/le-jeune-cinema/le_jeune_cinema_tile_small_2x.jpg")
+    }
+}
+/* LOCAL FIXES */
+
+
+.main [data-module-template="promos"] [data-unit-id="le-jeune-cinema"] .unit-wrapper .unit-copy-wrapper h4 {
+	color: #fff;
+}
+
+
+
+/* END PROMO 1 LE-JEUNE-CINEMA */
+
+
+
+
+/* PROMO 2 BACK-TO-SCHOOL */
+
+/* SCREENS */
+
+.main [data-module-template="promos"] .unit-image-wrapper .unit-image.unit-image-bts-tile {
+    background-image: url("/fr/home/images/promos/bts/tile__cauwwcyyn9hy_large.jpg")
+}
+
+@media only screen and (-webkit-min-device-pixel-ratio: 1.5), only screen and (min-resolution: 1.5dppx), (-webkit-min-device-pixel-ratio: 1.5), (min-resolution: 144dpi) {
+    .main [data-module-template="promos"] .unit-image-wrapper .unit-image.unit-image-bts-tile {
+        background-image: url("/fr/home/images/promos/bts/tile__cauwwcyyn9hy_large_2x.jpg")
+    }
+}
+
+@media only screen and (max-width: 1068px) {
+    .main [data-module-template="promos"] .unit-image-wrapper .unit-image.unit-image-bts-tile {
+        background-image: url("/fr/home/images/promos/bts/tile__cauwwcyyn9hy_medium.jpg")
+    }
+}
+
+@media only screen and (max-width: 1068px) and (-webkit-min-device-pixel-ratio: 1.5), only screen and (max-width: 1068px) and (min-resolution: 1.5dppx), only screen and (max-width: 1068px) and (min-resolution: 144dpi) {
+    .main [data-module-template="promos"] .unit-image-wrapper .unit-image.unit-image-bts-tile {
+        background-image: url("/fr/home/images/promos/bts/tile__cauwwcyyn9hy_medium_2x.jpg")
+    }
+}
+
+@media only screen and (max-width: 735px) {
+    .main [data-module-template="promos"] .unit-image-wrapper .unit-image.unit-image-bts-tile {
+        background-image: url("/fr/home/images/promos/bts/tile__cauwwcyyn9hy_small.jpg")
+    }
+}
+
+@media only screen and (max-width: 735px) and (-webkit-min-device-pixel-ratio: 1.5), only screen and (max-width: 735px) and (min-resolution: 1.5dppx), only screen and (max-width: 735px) and (min-resolution: 144dpi) {
+    .main [data-module-template="promos"] .unit-image-wrapper .unit-image.unit-image-bts-tile {
+        background-image: url("/fr/home/images/promos/bts/tile__cauwwcyyn9hy_small_2x.jpg")
+    }
+}
+
+/* LOCAL FIXES */
+
+.main [data-module-template="promos"] .unit-image-wrapper .unit-image.unit-image-bts-tile {
+  bottom: -20px;
+}
+ 
+@media only screen and (max-width: 1068px) {
+ .main [data-module-template="promos"] .unit-image-wrapper .unit-image.unit-image-bts-tile {
+  bottom: -30px;
+ }
+}
+
+@media only screen and (max-width: 735px) {
+ .main [data-module-template="promos"] .unit-image-wrapper .unit-image.unit-image-bts-tile {
+  bottom: -20px;
+ }
+}
+
+/* END PROMO 2 BACK-TO-SCHOOL */
+
+
+
+
+
+
+
+
+
+
+/* PROMO 3 MACBOOK-AIR */
+
+/* SCREENS */
+
+/* LOCAL FIXES */
+
+/* END PROMO 3 MACBOOK-AIR */
+
+
+
+
+
+
+
+/* PROMO 4 MACBOOK-PRO */
+
+/* SCREENS */
+
+/* LOCAL FIXES */
+
+/* END PROMO 4 MACBOOK-PRO */
+
+
+
+
+
+/* PROMO 5 CLOSE-YOUR-RINGS */
+
+/* SCREENS */
+
+.main [data-module-template="promos"] .unit-image-wrapper .unit-image.unit-image-close-your-rings-tile {
+    width: 1262px;
+    height: 580px;
+    background-size: 1262px 580px;
+    background-repeat: no-repeat;
+    background-image: url("/euro/home/n/generic/images/promos/close-your-rings/tile__cauwwcyyn9hy_large.jpg")
+}
+
+@media only screen and (-webkit-min-device-pixel-ratio: 1.5), only screen and (min-resolution: 1.5dppx), (-webkit-min-device-pixel-ratio: 1.5), (min-resolution: 144dpi) {
+    .main [data-module-template="promos"] .unit-image-wrapper .unit-image.unit-image-close-your-rings-tile {
+        background-image: url("/euro/home/n/generic/images/promos/close-your-rings/tile__cauwwcyyn9hy_large_2x.jpg")
+    }
+}
+
+@media only screen and (max-width: 1068px) {
+    .main [data-module-template="promos"] .unit-image-wrapper .unit-image.unit-image-close-your-rings-tile {
+        width: 516px;
+        height: 490px;
+        background-size: 516px 490px;
+        background-repeat: no-repeat;
+        background-image: url("/euro/home/n/generic/images/promos/close-your-rings/tile__cauwwcyyn9hy_medium.jpg")
+    }
+}
+
+@media only screen and (max-width: 1068px) and (-webkit-min-device-pixel-ratio: 1.5), only screen and (max-width: 1068px) and (min-resolution: 1.5dppx), only screen and (max-width: 1068px) and (min-resolution: 144dpi) {
+    .main [data-module-template="promos"] .unit-image-wrapper .unit-image.unit-image-close-your-rings-tile {
+        background-image: url("/euro/home/n/generic/images/promos/close-your-rings/tile__cauwwcyyn9hy_medium_2x.jpg")
+    }
+}
+
+@media only screen and (max-width: 735px) {
+    .main [data-module-template="promos"] .unit-image-wrapper .unit-image.unit-image-close-your-rings-tile {
+        width: 736px;
+        height: 548px;
+        background-size: 736px 548px;
+        background-repeat: no-repeat;
+        background-image: url("/euro/home/n/generic/images/promos/close-your-rings/tile__cauwwcyyn9hy_small.jpg")
+    }
+}
+
+@media only screen and (max-width: 735px) and (-webkit-min-device-pixel-ratio: 1.5), only screen and (max-width: 735px) and (min-resolution: 1.5dppx), only screen and (max-width: 735px) and (min-resolution: 144dpi) {
+    .main [data-module-template="promos"] .unit-image-wrapper .unit-image.unit-image-close-your-rings-tile {
+        background-image: url("/euro/home/n/generic/images/promos/close-your-rings/tile__cauwwcyyn9hy_small_2x.jpg")
+    }
+}
+
+/* LOCAL FIXES */
+
+.main [data-module-template="promos"] [data-unit-id="close-your-rings"] .subhead[role="presentation"] {
+    width: 320px
+}
+
+@media only screen and (max-width: 1068px) {
+    .main [data-module-template="promos"] [data-unit-id="close-your-rings"] .subhead[role="presentation"] {
+        width: 260px
+    }
+}
+
+.main [data-module-template="promos"] [data-unit-id="close-your-rings"] .cta-links a {
+    color: #ffffff
+}
+
+/* END PROMO 5 CLOSE-YOUR-RINGS */
+
+
+
+
+/* PROMO 6 IPAD-PRO */
+
+/* SCREENS */
+
+/* LOCAL FIXES */
+
+/* END PROMO 6 IPAD-PRO */
+
+
+
+
+
+
+
+/*------------------------------------*\
+  END PROMO CSS
+\*------------------------------------*/

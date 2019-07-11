@@ -1,0 +1,171 @@
+.navbar-brand {
+    margin-left: 20%;
+}
+.nav-item {
+    margin-left: 3%;
+}
+.navbar-text {
+    margin-right: 5%;
+    color: gray;
+}
+.fa-shopping-bag {
+   color: #989898;
+}
+.fa-shopping-bag:hover {
+    color: #FFFFFF;
+}
+.navbar {
+    background-color: #313131;
+}
+.head h3 {
+    font-size: 30px;
+    font-weight:bold;
+    text-align: center;
+
+}
+.head h5 {
+    text-align: center;
+    font-family: 'Roboto', sans-serif;
+}
+.head a {
+    margin-left: 1.5%;
+    margin-right: 1.5%;
+    font-size: 22px;
+}
+.head {
+    margin-top: 3%;
+}
+
+/* IPHONE XR*/
+.iphonexr {
+    margin-top: 3%;
+}
+.iphonexr h5 {
+    text-align: center;
+    font-family: 'Roboto', sans-serif;
+}
+
+.iphonexr a {
+    margin-left: 1.5%;
+    margin-right: 1.5%;
+    font-size: 22px;
+}
+#iphonexr {
+    margin-top: 2%;
+}
+
+/* IPHONE XS*/
+.iphonexs {
+    margin-top: 4%;
+}
+.iphonexs h5 {
+    margin-top: 2%;
+    text-align: center;
+    font-family: 'Roboto', sans-serif;
+}
+
+.iphonexs a {
+    margin-left: 1.5%;
+    margin-right: 1.5%;
+    font-size: 22px;
+}
+#iphonexs {
+    margin-top: 2%;
+}
+
+/* Watch Serie 4*/
+.watch {
+    margin-top: 4%;
+}
+.watch h5 {
+    margin-top: 2%;
+    text-align: center;
+    font-family: 'Roboto', sans-serif;
+}
+
+.watch a {
+    margin-left: 1.5%;
+    margin-right: 1.5%;
+    font-size: 22px;
+}
+#watch {
+    margin-top: 2%;
+}
+#cinema {
+    margin-left: 1%;
+    color: #FFFFFF;
+    background-image: url("../img/le-jeune\ cinema.png");
+    background-size: cover;
+    padding-bottom: 500px;
+}
+#cinema h3 {
+    text-align: center;
+    margin-top: 5%;
+    font-size: 40px;
+}
+#cinema h6 {
+    font-size: 22px;
+    text-align: center;
+}
+#back {
+    margin-right: 1%;
+    background-image: url("../img/back\ school.png");
+    background-size: cover;
+    padding-bottom: 500px;
+}
+#back h3 {
+    text-align: center;
+    margin-top: 5%;
+    font-size: 40px;
+}
+#back h6 {
+    font-size: 22px;
+    text-align: center;
+}
+#macbook-air {
+    margin-left: 1%;
+    background-image: url("../img/macbook-air.jpg");
+    background-size: cover;
+    padding-bottom: 500px;
+}
+#macbook-air h3 {
+    text-align: center;
+    margin-top: 5%;
+    font-size: 40px;
+}
+#macbook-air h5 {
+    text-align: center;
+}
+#macbook-air h6 {
+    font-size: 22px;
+    text-align: center;
+}
+#macbook-pro {
+    margin-left: 1%;
+    color: white;
+    background-image: url("../img/macbook-pro1.png");
+    background-size: cover;
+    padding-bottom: 500px;
+}
+#macbook-pro h3 {
+    text-align: center;
+    margin-top: 5%;
+    font-size: 40px;
+}
+#macbook-pro h5 {
+    text-align: center;
+}
+#macbook-pro h6 {
+    font-size: 22px;
+    text-align: center;
+}
+#footer {
+    font-size: 12px;
+}
+#achat {
+    margin-left: 3%;
+}
+footer p {
+    margin-left: 3%;
+    font-size: 12px;
+}
